@@ -12,7 +12,7 @@ names = data['Name']  # Assuming the column is 'Name'
 
 # Adjust font size for larger text (set to a reasonable large size)
 font_size =78 # Set a large font size that will render clearly
-font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", font_size)
+font = ImageFont.truetype("C:/Windows/Fonts/arial.ttf", font_size)
 
 # Coordinates for text placement (move the text lower and to the center)
 text_y =735 # You can adjust this vertically as needed
@@ -38,3 +38,4 @@ for index, name in enumerate(names):
     cert.save(output_path)
 
 print(f"Certificates generated and saved in {output_dir}")
+
